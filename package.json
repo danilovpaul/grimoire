@@ -8,6 +8,7 @@
     "packages/veil",
     "apps/grinder",
     "apps/guild",
-    "packages/essence"
+    "packages/essence",
+    "packages/necropolis"
   ]
 }

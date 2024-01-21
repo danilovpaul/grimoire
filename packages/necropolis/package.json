@@ -1,0 +1,12 @@
+{
+  "name": "necropolis",
+  "version": "0.0.0",
+  "license": "MIT",
+	"type": "module",
+	"scripts": {
+		"test": "node --test __tests__/*.test.js"
+	},
+  "dependencies": {
+    "@types/node": "^20.11.5"
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"collections": {
+		"users": {
+			"type": "user",
+			"file": "users.json"
+		},
+		"notes": {
+			"type": "note",
+			"file": "notes.json"
+		}
+	},
+	"types": {
+		"user": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"notes": {
+					"type": "array",
+					"elements": {
+						"ref": "note"
+					}
+				}
+			}
+		},
+		"note": {
+			"type": "object",
+			"properties": {
+				"title": {
+					"type": "string"
+				},
+				"body": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}

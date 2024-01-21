@@ -1,5 +1,8 @@
 {
   "name": "starlight",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.11.5"
+  }
 }
