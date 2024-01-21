@@ -4,6 +4,10 @@
   "license": "MIT",
   "workspaces": [
     "packages/phylactery",
-    "packages/starlight"
+    "packages/starlight",
+    "packages/veil",
+    "apps/grinder",
+    "apps/guild",
+    "packages/essence"
   ]
 }
